@@ -14,6 +14,7 @@ before(done => {
   //      OR
   mongoose.connection
     .once("open", () => {
+      console.log('MongoDB connected')
       done();
     })
     .on("error", error => {
