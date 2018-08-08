@@ -90,6 +90,7 @@ class ArtistFilter extends Component {
                 <option value="name">Name</option>
                 <option value="age">Age</option>
                 <option value="albums">Albums Released</option>
+                <option value="yearsActive">Years Active</option>
               </Field>
             </div>
 
